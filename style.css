@@ -1,0 +1,125 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(135deg, #4a90e2, #7b4397);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header .welcome {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.header .descricao {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 60px 20px;
+    background: white;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.section h2 {
+    text-align: center;
+    color: #4a90e2;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills-list li {
+    display: inline-block;
+    background: #eaeaea;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    color: #333;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #4a90e2;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.project-card a:hover {
+    background-color: #7b4397;
+}
+
+.courses-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.courses-list li {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.footer {
+    background: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
